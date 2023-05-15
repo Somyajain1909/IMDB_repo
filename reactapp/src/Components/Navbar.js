@@ -7,10 +7,12 @@ const Navbar = () => {
   'margin': '0',
   'padding': '0'}}>
   <li><a href="/">Home</a></li>
-  <li><a href="/">Dashboard</a></li>
-  <li><a href="/">Contact</a></li>
+  <li><a href="#dashboard">Dashboard</a></li>
+  <li><a href="#contact">Contact</a></li>
 <label className="switch myn-3 mx-3 toggle">
+  
   <input type="checkbox"/>
+  
   <span class="slider round"></span>
 </label>
 </ul> 
