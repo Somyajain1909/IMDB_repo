@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className='myn-3 '>
        <ul style={{'list-style-type': 'none',
@@ -9,12 +9,6 @@ const Navbar = () => {
   <li><a href="/">Home</a></li>
   <li><a href="#dashboard">Dashboard</a></li>
   <li><a href="#contact">Contact</a></li>
-<label className="switch myn-3 mx-3 toggle">
-  
-  <input type="checkbox"/>
-  
-  <span class="slider round"></span>
-</label>
 </ul> 
     </div>
   )

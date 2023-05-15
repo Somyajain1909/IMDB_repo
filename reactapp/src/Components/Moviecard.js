@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Moviecard = (props) => {
-    let {url,rating,title,genre} =props;
+    let {url,duration,rating,title,genre} =props;
+    
   return (
     
    
@@ -13,9 +14,14 @@ const Moviecard = (props) => {
   <br/><div>{title}</div>
 
   <p><button className='mx-2'>{genre}</button></p>
+  <p className='mx-3' style={{'float':'right'}}><i class="fa-solid fa-play"></i>&nbsp;{duration} min</p>
   </div>
- <p className='mx-2' style={{'float':"right"}}> info<i class="fa-solid fa-circle-info"></i></p>
-</div> 
+ 
+
+</div>
+
+
+ 
     
   )
 }
